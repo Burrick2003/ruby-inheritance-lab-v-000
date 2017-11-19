@@ -23,4 +23,4 @@ jim = Student.new
 jim.first_name = "Jim"
 jim.last_name = "Hogschmidt"
 jim.learn(some_knowledge)
-puts "Jim, a verified imbecile, has just learned: '#{jim.knowledge.first}' from Avi"
+puts "Master #{jim.last_name} a verified imbecile, has just learned: '#{jim.knowledge.first}' from Avi"
